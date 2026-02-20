@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0b2a5a"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs>
+<rect rx="14" ry="14" width="60" height="60" fill="url(#g)"/>
+<text x="30" y="38" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#eaf0ff">SL</text>
+<text x="74" y="28" font-family="Inter, Arial" font-size="16" font-weight="800" fill="#eaf0ff">Superior Link</text>
+<text x="74" y="46" font-family="Inter, Arial" font-size="12" font-weight="600" fill="#a7b3d6">Nigeria Limited</text>
+</svg>
