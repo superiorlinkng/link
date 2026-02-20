@@ -1,5 +1,4 @@
 # Canonical clean URLs
-/index.html  /  301
 /products    /products.html  301
 /pms         /pms.html  301
 /ago         /ago.html  301
