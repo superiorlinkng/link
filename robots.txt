@@ -13,9 +13,4 @@ Sitemap: https://superiorlinkng.com/sitemap.xml
   <url><loc>https://superiorlinkng.com/investors</loc></url>
   <url><loc>https://superiorlinkng.com/contact</loc></url>
 
-  <url><loc>https://superiorlinkng.com/docs/profile.html</loc></url>
-  <url><loc>https://superiorlinkng.com/docs/catalog.html</loc></url>
-  <url><loc>https://superiorlinkng.com/docs/pricing.html</loc></url>
-  <url><loc>https://superiorlinkng.com/docs/workflow.html</loc></url>
-
 </urlset>
