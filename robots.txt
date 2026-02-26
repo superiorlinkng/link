@@ -2,3 +2,20 @@ User-agent: *
 Allow: /
 
 Sitemap: https://superiorlinkng.com/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://superiorlinkng.com/</loc></url>
+  <url><loc>https://superiorlinkng.com/about</loc></url>
+  <url><loc>https://superiorlinkng.com/products</loc></url>
+  <url><loc>https://superiorlinkng.com/markets</loc></url>
+  <url><loc>https://superiorlinkng.com/compliance</loc></url>
+  <url><loc>https://superiorlinkng.com/investors</loc></url>
+  <url><loc>https://superiorlinkng.com/contact</loc></url>
+
+  <url><loc>https://superiorlinkng.com/docs/profile.html</loc></url>
+  <url><loc>https://superiorlinkng.com/docs/catalog.html</loc></url>
+  <url><loc>https://superiorlinkng.com/docs/pricing.html</loc></url>
+  <url><loc>https://superiorlinkng.com/docs/workflow.html</loc></url>
+
+</urlset>
