@@ -81,6 +81,18 @@ footer{padding:26px 0;border-top:1px solid var(--line);color:var(--muted);font-s
   transition: 0.3s;
   margin: 6px 8px 6px 0;
 }
+.dark-mode {
+  background: #0a1a3c;
+  color: #ffffff;
+}
+
+.dark-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 .download-btn:hover {
   background: var(--navy);
