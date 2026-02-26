@@ -1,1 +1,33 @@
 docs/pricing/.keep
+<section class="page-section">
+  <h1>Pricing Models</h1>
+
+  <h2>Jet A‑1 Pricing Model</h2>
+  <ul>
+    <li>Base Cost: Platts benchmark + refinery price</li>
+    <li>Logistics: tank farm, trucking, vessel</li>
+    <li>Inspection: SGS/Intertek</li>
+    <li>Margin: $20–$60/MT</li>
+  </ul>
+
+  <h2>PMS Pricing Model</h2>
+  <ul>
+    <li>Base Cost: refinery PMS price</li>
+    <li>Logistics: depot + trucking</li>
+    <li>Margin: ₦3–₦15 per liter</li>
+  </ul>
+
+  <h2>AGO Pricing Model</h2>
+  <ul>
+    <li>Base Cost: refinery AGO price</li>
+    <li>Logistics: tank farm + trucking</li>
+    <li>Margin: ₦10–₦40 per liter</li>
+  </ul>
+
+  <h2>CNG Pricing Model</h2>
+  <ul>
+    <li>Base Cost: gas field + compression</li>
+    <li>Logistics: cascade truck delivery</li>
+    <li>Margin: ₦20–₦150 per SCM</li>
+  </ul>
+</section>
