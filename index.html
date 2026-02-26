@@ -34,6 +34,18 @@
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Organization", "name": "Superior Link Nigeria Limited", "url": "https://superiorlinkng.com", "email": ["info@superiorlinkng.com", "sales@superiorlinkng.com"], "telephone": "+2348036785625", "address": {"@type": "PostalAddress", "streetAddress": "630, Extension Layout, Industrial Zone, Kutuku Gwagwalada", "addressLocality": "Abuja", "addressCountry": "NG"}, "sameAs": []}, {"@context": "https://schema.org", "@type": "WebSite", "name": "Superior Link Nigeria Limited", "url": "https://superiorlinkng.com", "potentialAction": {"@type": "SearchAction", "target": "https://superiorlinkng.com/?q={search_term_string}", "query-input": "required name=search_term_string"}}]</script>
 
 </head>
+  <script>
+  const elements = document.querySelectorAll('.fade-in, .slide-up');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  });
+
+  elements.forEach(el => observer.observe(el));
+</script>
+
 <body>
   <div class="nav">
     <div class="container navin">
