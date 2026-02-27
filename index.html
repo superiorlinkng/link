@@ -14,23 +14,25 @@
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://superiorlinkng.com">
 
-  <!-- Social -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply">
-  <meta name="twitter:description" content="Refinery-linked sourcing, structured documentation, and QHSE-led delivery.">
-
+  <!-- OpenGraph / Social -->
   <meta property="og:title" content="Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply">
   <meta property="og:description" content="Refinery-linked sourcing, structured documentation, and QHSE-led delivery.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://superiorlinkng.com">
+  <meta property="og:image" content="https://superiorlinkng.com/assets/images/og-home.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply">
+  <meta name="twitter:description" content="Refinery-linked sourcing, structured documentation, and QHSE-led delivery.">
+  <meta name="twitter:image" content="https://superiorlinkng.com/assets/images/og-home.jpg">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- FIXED: absolute path -->
+  <!-- CSS -->
   <link rel="stylesheet" href="/assets/style.css">
 
-  <!-- Schema -->
+  <!-- Organization Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,6 +48,54 @@
       "addressCountry": "NG"
     }
   }
+  </script>
+
+  <!-- Product Schema (PMS, AGO, Jet A1, CNG) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Refined Products",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "PMS (Premium Motor Spirit)",
+        "url": "https://superiorlinkng.com/pms",
+        "category": "Fuel",
+        "description": "Bulk PMS supply for marketers and high-throughput stations with delivered pricing options."
+      },
+      {
+        "@type": "Product",
+        "name": "AGO (Automotive Gas Oil)",
+        "url": "https://superiorlinkng.com/ago",
+        "category": "Fuel",
+        "description": "Industrial and fleet diesel supply with standing agreements and predictable schedules."
+      },
+      {
+        "@type": "Product",
+        "name": "Jet A1",
+        "url": "https://superiorlinkng.com/jet-a1",
+        "category": "Aviation Fuel",
+        "description": "Aviation fuel supply through approved channels focused on spec compliance and documentation."
+      },
+      {
+        "@type": "Product",
+        "name": "CNG (Compressed Natural Gas)",
+        "url": "https://superiorlinkng.com/cng",
+        "category": "Fuel",
+        "description": "Partnership-led CNG supply planning for stations and fleet conversions."
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics (GA4) – replace G-XXXXXXX with your ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
   </script>
 </head>
 
@@ -85,8 +135,8 @@
   </div>
 </div>
 
-<!-- HERO SECTION -->
-<header class="container">
+<!-- HERO SECTION WITH REFINERY BACKGROUND -->
+<header class="container hero-refinery fade-in-up">
   <div class="hero">
     <div>
       <span class="kicker"><span class="dot"></span> Major Distributor Counterparty • Dangote Access</span>
@@ -129,7 +179,7 @@
       </div>
     </div>
 
-    <div class="panel">
+    <div class="panel slide-in-right">
       <span class="badge">Trust & Execution Signals</span>
       <div class="hr"></div>
 
@@ -168,18 +218,86 @@
   </div>
 </header>
 
-<!-- THREE-CARD SECTION -->
-<section class="container">
+<section class="container fade-in-up">
   <div class="grid3">
-    <div class="card"><h3>Trading</h3><p>Structured supply for marketers and industrial users, with clear deal sheets, KYC, and controlled payment terms.</p></div>
-    <div class="card"><h3>Haulage</h3><p>Managed trucking using approved subcontract fleets and journey management—focused on safe, on-time delivery.</p></div>
-    <div class="card"><h3>Investor readiness</h3><p>Governance, compliance roadmap and reporting discipline designed for banks, strategic partners and investors.</p></div>
+    <div class="card">
+      <h3>Trading</h3>
+      <p>Structured supply for marketers and industrial users, with clear deal sheets, KYC, and controlled payment terms.</p>
+    </div>
+    <div class="card">
+      <h3>Haulage</h3>
+      <p>Managed trucking using approved subcontract fleets and journey management—focused on safe, on-time delivery.</p>
+    </div>
+    <div class="card">
+      <h3>Investor readiness</h3>
+      <p>Governance, compliance roadmap and reporting discipline designed for banks, strategic partners and investors.</p>
+    </div>
   </div>
 </section>
 
+<!-- GLOBAL FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Superior Link Nigeria Ltd</h4>
+      <p class="small">
+        Indigenous downstream trading and haulage company supplying PMS, AGO, Jet A1 and CNG with compliance and QHSE-led operations.
+      </p>
+      <p class="small">Abuja • Lagos/Ogun • South East</p>
+    </div>
+
+    <div>
+      <h4>Navigation</h4>
+      <p class="small"><a href="/">Home</a></p>
+      <p class="small"><a href="/products">Products</a></p>
+      <p class="small"><a href="/markets">Markets</a></p>
+      <p class="small"><a href="/compliance">Compliance</a></p>
+      <p class="small"><a href="/investors">Investors</a></p>
+      <p class="small"><a href="/payments">Payments</a></p>
+      <p class="small"><a href="/about">About</a></p>
+      <p class="small"><a href="/contact">Contact</a></p>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p class="small">Email: info@superiorlinkng.com</p>
+      <p class="small">Sales: sales@superiorlinkng.com</p>
+      <p class="small">Phone / WhatsApp: +2348036785625</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/people/Superior-Link-Nig-Ltd/61587178234784" target="_blank">Facebook</a>
+        <a href="https://x.com" target="_blank">X</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p class="small">© Superior Link Nigeria Limited. All rights reserved.</p>
+  </div>
+</footer>
+
 <script>
   const toggle = document.getElementById('darkToggle');
-  toggle.onclick = () => document.body.classList.toggle('dark-mode');
+  if (toggle) {
+    toggle.onclick = () => document.body.classList.toggle('dark-mode');
+  }
+
+  function toggleNav() {
+    const links = document.getElementById('links');
+    if (links) links.classList.toggle('open');
+  }
+
+  // Simple scroll animation
+  const animated = document.querySelectorAll('.fade-in-up, .slide-in-right');
+  const onScroll = () => {
+    const trigger = window.innerHeight * 0.9;
+    animated.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < trigger) el.classList.add('in-view');
+    });
+  };
+  window.addEventListener('scroll', onScroll);
+  window.addEventListener('load', onScroll);
 </script>
 
 </body>
