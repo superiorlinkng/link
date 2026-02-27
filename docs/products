@@ -1,16 +1,6 @@
-docs/products/.keep
-<section class="page-section">
-  <h1>Product Catalog</h1>
+/docs/products/pms-spec-sheet.pdf
+/docs/products/ago-spec-sheet.pdf
+/docs/products/jet-a1-spec-sheet.pdf
+/docs/products/cng-spec-sheet.pdf
+/docs/products/product-catalog.pdf
 
-  <h2>Jet A‑1 Aviation Fuel</h2>
-  <p>Refinery‑standard aviation turbine fuel with full SGS/Intertek inspection.</p>
-
-  <h2>PMS (Premium Motor Spirit)</h2>
-  <p>High‑quality gasoline for retail stations, fleets, and industrial generators.</p>
-
-  <h2>AGO (Automotive Gas Oil)</h2>
-  <p>Industrial‑grade diesel for logistics, manufacturing, marine, and power generation.</p>
-
-  <h2>CNG (Compressed Natural Gas)</h2>
-  <p>Clean, cost‑efficient fuel solution for fleets and industrial heating.</p>
-</section>
