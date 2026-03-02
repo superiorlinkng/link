@@ -80,22 +80,21 @@
   </p>
 </header>
 
-<section class="container two">
+<section id="downloads" class="container fade-in-up">
   <div class="card">
     <h3>Investor Downloads</h3>
-    <p>Download the latest investor materials:</p>
+    <p class="small">All documents are verified and updated for investor review.</p>
 
     <!-- FIXED: absolute paths -->
     
-   
-    <a class="btn" href="/docs/product-catalog.pdf" download>Download Product Catalog</a>
-    <a class="btn" href="/docs/pricing-models.pdf" download>Download Pricing Models</a>
-    <a class="btn" href="/docs/buyer-onboarding.pdf" download>Download Buyer Workflow</a>
-    <a class="btn" href="/docs/compliance-center.pdf" download>Download Compliance Pack</a>
-    <a class="btn" href="/docs/corporate/company-profile.pdf" download>Company Profile</a>
-   <a class="btn" href="/docs/corporate/investor-teaser.pdf" download>Investor Teaser</a>
-   <a class="btn" href="/docs/corporate/capability-statement.pdf" download>Capability Statement</a>
-  <a class="btn" href="/docs/corporate/leadership-profile.pdf" download>Leadership Profile</a>
+   <a class="btn" href="/docs/corporate/company-profile.pdf" download>Company Profile</a> 
+    <a class="btn" href="/docs/corporate/investor-teaser.pdf" download>Investor Teaser</a>
+    <a class="btn" href="/docs/corporate/capability-statement.pdf" download>Capability Statement</a>
+    <a class="btn" href="/docs/products/product-catalog.pdf" download>Product Catalog</a>
+    <a class="btn" href="/docs/corporate/leadership-profile.pdf" download>Leadership Profile</a>
+    <a class="btn" href="/docs/corporate/pricing-models.pdf" download>Download Pricing Models</a>
+    </div> 
+</section>
 
   </div>
 
@@ -201,8 +200,13 @@
 </footer>
 
 <script>
-  const toggle = document.getElementById('darkToggle');
-  toggle.onclick = () => document.body.classList.toggle('dark-mode');
+  document.querySelectorAll('.links a').forEach(a => {
+  a.addEventListener('click', () => {
+    const links = document.getElementById('links');
+    if (links) links.classList.remove('open');
+  });
+});
+
 </script>
 
 </body>
