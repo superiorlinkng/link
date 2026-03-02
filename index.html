@@ -40,7 +40,7 @@
     "name": "Superior Link Nigeria Limited",
     "url": "https://superiorlinkng.com",
     "email": ["info@superiorlinkng.com", "sales@superiorlinkng.com"],
-    "telephone": "+2348036785625",
+    "telephone": "+15628847513",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "630 Extension Layout, Industrial Zone, Kutuku Gwagwalada",
@@ -129,8 +129,8 @@
       <a href="/investors">Investors</a>
       <a href="/payments">Payments</a>
       <a href="/contact#quote" class="cta">Get Quote</a>
-      <a href="https://wa.me/2348036785625" class="cta" target="_blank">WhatsApp</a>
-      <a href="tel:+2348036785625" class="cta" style="background:rgba(255,255,255,.08)">Call</a>
+      <a href="https://wa.me/15628847513" class="cta" target="_blank">WhatsApp</a>
+      <a href="tel:+15628847513" class="cta" style="background:rgba(255,255,255,.08)">Call</a>
     </nav>
   </div>
 </div>
@@ -262,7 +262,7 @@
       <h4>Contact</h4>
       <p class="small">Email: info@superiorlinkng.com</p>
       <p class="small">Sales: sales@superiorlinkng.com</p>
-      <p class="small">Phone / WhatsApp: +2348036785625</p>
+      <p class="small">Phone / WhatsApp: +15628847513</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/people/Superior-Link-Nig-Ltd/61587178234784" target="_blank">Facebook</a>
         <a href="https://x.com" target="_blank">X</a>
@@ -282,10 +282,10 @@
     toggle.onclick = () => document.body.classList.toggle('dark-mode');
   }
 
-  function toggleNav() {
-    const links = document.getElementById('links');
-    if (links) links.classList.toggle('open');
-  }
+document.querySelectorAll('.links a').forEach(a => { 
+  a.addEventListener('click', () => { 
+    const links = document.getElementById('links'); 
+    if (links) links.classList.remove('open'); }); });
 
   // Simple scroll animation
   const animated = document.querySelectorAll('.fade-in-up, .slide-in-right');
