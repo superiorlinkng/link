@@ -166,7 +166,7 @@
       <h4>Contact</h4>
       <p class="small">Email: info@superiorlinkng.com</p>
       <p class="small">Sales: sales@superiorlinkng.com</p>
-      <p class="small">Phone / WhatsApp: +2348036785625</p>
+      <p class="small">Phone / WhatsApp: +15628847513</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/people/Superior-Link-Nig-Ltd/61587178234784" target="_blank">Facebook</a>
         <a href="https://x.com/SuperiorLinkng" target="_blank">X</a>
@@ -184,10 +184,12 @@
   const toggle = document.getElementById('darkToggle');
   if (toggle) toggle.onclick = () => document.body.classList.toggle('dark-mode');
 
-  function toggleNav() {
-    const links = document.getElementById('links');
-    if (links) links.classList.toggle('open');
-  }
+  document.querySelectorAll('.links a').forEach(a => { 
+    a.addEventListener('click', () => { 
+      const links = document.getElementById('links'); 
+      if (links) links.classList.remove('open'); 
+    }); 
+  });
 
   // Scroll animations
   const animated = document.querySelectorAll('.fade-in-up');
