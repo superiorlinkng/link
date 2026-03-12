@@ -1,304 +1,236 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply</title>
-  <meta name="description" content="Superior Link Nigeria Ltd supplies Jet A‑1, PMS, AGO, and CNG with full compliance, transparent pricing, and QHSE-led logistics across Nigeria.">
+  <meta charset="UTF-8" />
+  <title>Superior Link Nigeria Ltd | PMS, AGO, Jet A1 & CNG Supply</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Superior Link Nigeria Ltd supplies PMS, AGO, Jet A1 and CNG with refinery-linked sourcing, QHSE-led logistics, and investor-grade documentation across Nigeria." />
 
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Superior Link Nigeria Ltd | PMS, AGO, Jet A1 & CNG Supply" />
+  <meta property="og:description" content="Refinery-linked sourcing, QHSE-led delivery, and investor-ready documentation for PMS, AGO, Jet A1 and CNG." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://superiorlinkng.com/" />
+  <meta property="og:image" content="https://superiorlinkng.com/assets/og/superiorlink-home.png" />
 
-  <!-- SEO -->
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://superiorlinkng.com">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Superior Link Nigeria Ltd | PMS, AGO, Jet A1 & CNG Supply" />
+  <meta name="twitter:description" content="Downstream trading & haulage built for trust, compliance, and performance." />
+  <meta name="twitter:image" content="https://superiorlinkng.com/assets/og/superiorlink-home.png" />
 
-  <!-- OpenGraph / Social -->
-  <meta property="og:title" content="Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply">
-  <meta property="og:description" content="Refinery-linked sourcing, structured documentation, and QHSE-led delivery.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://superiorlinkng.com">
-  <meta property="og:image" content="https://superiorlinkng.com/assets/images/og-home.jpg">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Superior Link Nigeria Ltd | Jet A‑1, PMS, AGO & CNG Supply">
-  <meta name="twitter:description" content="Refinery-linked sourcing, structured documentation, and QHSE-led delivery.">
-  <meta name="twitter:image" content="https://superiorlinkng.com/assets/images/og-home.jpg">
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/style.css">
-
-  <!-- Organization Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Superior Link Nigeria Limited",
-    "url": "https://superiorlinkng.com",
-    "email": ["info@superiorlinkng.com", "sales@superiorlinkng.com"],
-    "telephone": "+15628847513",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "630 Extension Layout, Industrial Zone, Kutuku Gwagwalada",
-      "addressLocality": "Abuja",
-      "addressCountry": "NG"
-    }
-  }
-  </script>
-
-  <!-- Product Schema (PMS, AGO, Jet A1, CNG) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Refined Products",
-    "itemListElement": [
-      {
-        "@type": "Product",
-        "name": "PMS (Premium Motor Spirit)",
-        "url": "https://superiorlinkng.com/pms",
-        "category": "Fuel",
-        "description": "Bulk PMS supply for marketers and high-throughput stations with delivered pricing options."
-      },
-      {
-        "@type": "Product",
-        "name": "AGO (Automotive Gas Oil)",
-        "url": "https://superiorlinkng.com/ago",
-        "category": "Fuel",
-        "description": "Industrial and fleet diesel supply with standing agreements and predictable schedules."
-      },
-      {
-        "@type": "Product",
-        "name": "Jet A1",
-        "url": "https://superiorlinkng.com/jet-a1",
-        "category": "Aviation Fuel",
-        "description": "Aviation fuel supply through approved channels focused on spec compliance and documentation."
-      },
-      {
-        "@type": "Product",
-        "name": "CNG (Compressed Natural Gas)",
-        "url": "https://superiorlinkng.com/cng",
-        "category": "Fuel",
-        "description": "Partnership-led CNG supply planning for stations and fleet conversions."
-      }
-    ]
-  }
-  </script>
-
-  <!-- Google Analytics (GA4) – replace G-XXXXXXX with your ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
-  </script>
+  <link rel="canonical" href="https://superiorlinkng.com/" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" href="/assets/favicon.ico" />
 </head>
-
 <body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="logo">
+        <img src="/assets/img/logo-superiorlink.svg" alt="Superior Link Nigeria Ltd" />
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+          <span></span><span></span><span></span>
+        </button>
+        <div id="links" class="links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/products">Products</a>
+          <a href="/pms">PMS</a>
+          <a href="/ago">AGO</a>
+          <a href="/jet-a1">Jet A1</a>
+          <a href="/cng">CNG</a>
+          <a href="/investors">Investors</a>
+          <a href="/compliance">Compliance</a>
+          <a href="/contact">Contact</a>
+          <a href="/payments" class="nav-highlight">Payments</a>
+          <a href="/contact#quote" class="cta">Request a Quote</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<!-- NAVIGATION -->
-<div class="nav">
-  <div class="container navin">
-    <div class="brand">
-      <div class="logo">
-        <img src="/assets/images/superiorlink-logo.png" alt="Superior Link logo" style="width:34px;height:34px;filter:drop-shadow(0 8px 18px rgba(0,0,0,.25));"/>
+  <!-- Hero -->
+  <section class="hero hero-refinery">
+    <div class="container hero-content">
+      <h1>Refinery‑linked PMS, AGO, Jet A1 & CNG Supply</h1>
+      <p>
+        Superior Link Nigeria Ltd delivers PMS, AGO, Jet A1 and CNG with refinery‑linked sourcing,
+        QHSE‑led logistics, and investor‑grade documentation for marketers, industrial users, fleets and aviation operators.
+      </p>
+      <div class="hero-cta">
+        <a href="/contact#quote" class="btn primary">Request a Quote</a>
+        <a href="/investors" class="btn ghost">Investor Information</a>
+      </div>
+      <div class="hero-tags">
+        <span>PMS Supply</span>
+        <span>AGO (Diesel)</span>
+        <span>Jet A1 Aviation Fuel</span>
+        <span>CNG Transition</span>
+        <span>QHSE Logistics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Overview -->
+  <section class="section light" id="products-overview">
+    <div class="container">
+      <h2>Downstream Products & Services</h2>
+      <p class="section-intro">
+        We operate a disciplined, compliance‑first model that integrates trading, haulage, journey management and documentation
+        under one accountable framework.
+      </p>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>PMS Supply & Distribution</h3>
+          <p>Refinery‑linked PMS supply for marketers and high‑throughput stations with transparent pricing and structured delivery.</p>
+          <a href="/pms" class="link">View PMS Supply →</a>
+        </article>
+        <article class="card">
+          <h3>AGO (Diesel) Supply</h3>
+          <p>AGO supply for industrial users, fleets and power applications with predictable schedules and audit‑ready job files.</p>
+          <a href="/ago" class="link">View AGO Supply →</a>
+        </article>
+        <article class="card">
+          <h3>Jet A1 Aviation Fuel</h3>
+          <p>Structured Jet A1 engagements with strict documentation, counterparty standards and aviation‑grade QHSE discipline.</p>
+          <a href="/jet-a1" class="link">View Jet A1 →</a>
+        </article>
+        <article class="card">
+          <h3>CNG Supply & Transition</h3>
+          <p>CNG supply planning and fleet/station transition support for operators moving into gas‑based solutions.</p>
+          <a href="/cng" class="link">View CNG →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Superior Link -->
+  <section class="section dark">
+    <div class="container two-column">
+      <div>
+        <h2>Built for Trust, Compliance & Performance</h2>
+        <p>
+          Superior Link Nigeria Ltd is structured for reliability, transparency and investor‑grade governance.
+          Every movement is backed by documentation, QHSE oversight and clear communication.
+        </p>
+        <ul class="checklist">
+          <li><strong>Refinery‑linked sourcing:</strong> Structured access and disciplined allocation.</li>
+          <li><strong>QHSE‑led logistics:</strong> Journey management, safety and incident reporting.</li>
+          <li><strong>Audit‑ready documentation:</strong> Job files, PODs, waybills and compliance packs.</li>
+          <li><strong>Investor‑grade governance:</strong> Reporting discipline for banks and partners.</li>
+        </ul>
       </div>
       <div>
-        <h1>Superior Link Nigeria Limited</h1>
-        <p>Dangote-linked Trading • Haulage • QHSE-led Operations</p>
+        <h3>Who We Serve</h3>
+        <ul class="pill-list">
+          <li>Marketers & Retail Networks</li>
+          <li>Industrial & Manufacturing Users</li>
+          <li>Fleet & Logistics Operators</li>
+          <li>Aviation & Ground Handling</li>
+          <li>CNG Stations & Fleet Conversions</li>
+        </ul>
+        <a href="/about" class="btn ghost">Learn More About Us</a>
       </div>
     </div>
+  </section>
 
-    <button class="toggle" onclick="toggleNav()" aria-label="menu">☰</button>
-    <button id="darkToggle" class="dark-btn">🌙</button>
-
-    <nav class="links" id="links">
-      <a href="/" style="font-weight:800">Home</a>
-      <a href="/products">Products</a>
-      <a href="/pms">PMS</a>
-      <a href="/ago">AGO</a>
-      <a href="/jet-a1">Jet A1</a>
-      <a href="/cng">CNG</a>
-      <a href="/markets">Markets</a>
-      <a href="/compliance">Compliance</a>
-      <a href="/investors">Investors</a>
-      <a href="/payments">Payments</a>
-      <a href="/contact#quote" class="cta">Get Quote</a>
-      <a href="https://wa.me/15628847513" class="cta" target="_blank">WhatsApp</a>
-      <a href="tel:+15628847513" class="cta" style="background:rgba(255,255,255,.08)">Call</a>
-    </nav>
-  </div>
-</div>
-
-<!-- HERO SECTION WITH REFINERY BACKGROUND -->
-<header class="container hero-refinery fade-in-up">
-  <div class="hero">
-    <div>
-      <span class="kicker"><span class="dot"></span> Major Distributor Counterparty • Dangote Access</span>
-
-      <h2>
-        Investor‑grade downstream distribution for 
-        <span style="color:var(--accent)">PMS, AGO, Jet A1 & CNG</span> — with controlled logistics.
-      </h2>
-
-      <p class="lead">
-        Superior Link Nigeria Limited is an indigenous energy trading and haulage company built to global standards:
-        structured transactions, disciplined documentation, QHSE‑led operations, and scalable corridor coverage across
-        Lagos/Ogun, Abuja and the South East.
-      </p>
-
-      <div class="card" style="margin-top:14px">
-        <div class="small" style="color:var(--muted)">
-          Superior Link Nig. Ltd is an indigenous oil & gas logistics and trading company. 
-          We have met all compliance requirements of Dangote Petroleum Refinery & Petrochemicals FZE 
-          and are approved as a trading counterparty (subject to periodic compliance checks).
-        </div>
+  <!-- Investors & Compliance -->
+  <section class="section light">
+    <div class="container two-column">
+      <div>
+        <h2>Investors & Strategic Partners</h2>
+        <p>
+          We maintain investor‑ready documentation, clear reporting and structured engagement models for banks,
+          trade partners and strategic investors.
+        </p>
+        <ul class="checklist">
+          <li><strong>Investor downloads:</strong> Company profile, capability statement, product catalog.</li>
+          <li><strong>Structured engagements:</strong> Clear roles, risk allocation and documentation.</li>
+          <li><strong>Transparent reporting:</strong> Designed for due diligence and ongoing monitoring.</li>
+        </ul>
+        <a href="/investors" class="btn primary">Visit Investors Page</a>
       </div>
-
-      <div class="chips">
-        <span class="chip">Refinery‑linked sourcing</span>
-        <span class="chip">Delivered supply model</span>
-        <span class="chip">KYC & controlled credit</span>
-        <span class="chip">Journey management & reporting</span>
-        <span class="chip">Investor relations & governance</span>
-      </div>
-
-      <div class="actions">
-        <a class="btn primary" href="/contact#quote">Request a Quote</a>
-        <a class="btn" href="/investors">Investor Relations</a>
-        <a class="btn" href="/payments">Pay Deposits / Fees</a>
-      </div>
-
-      <div style="margin-top:14px" class="small">
-        Note: Pricing is provided on request with validity windows.
+      <div>
+        <h2>Compliance & Documentation</h2>
+        <p>
+          Our compliance framework is designed to satisfy regulatory, banking and counterparty requirements with
+          clear, verifiable records.
+        </p>
+        <ul class="checklist">
+          <li>Compliance pack for counterparties.</li>
+          <li>Certificates and registrations.</li>
+          <li>Buyer onboarding workflow.</li>
+        </ul>
+        <a href="/compliance" class="btn ghost">View Compliance Center</a>
       </div>
     </div>
+  </section>
 
-    <div class="panel slide-in-right">
-      <span class="badge">Trust & Execution Signals</span>
-      <div class="hr"></div>
-
-      <div class="list">
-        <div class="li">
-          <div class="check">✓</div>
-          <div>
-            <b>Counterparty‑ready</b>
-            <div class="small">Dangote‑linked relationship + structured allocation & documentation workflow.</div>
-          </div>
-        </div>
-
-        <div class="li">
-          <div class="check">✓</div>
-          <div>
-            <b>QHSE‑led delivery</b>
-            <div class="small">Inspection, toolbox talks, incident reporting and journey plans.</div>
-          </div>
-        </div>
-
-        <div class="li">
-          <div class="check">✓</div>
-          <div>
-            <b>Bankable records</b>
-            <div class="small">Deal sheets, waybills, signed delivery notes and audit‑ready job files.</div>
-          </div>
-        </div>
+  <!-- Quote CTA -->
+  <section class="section accent">
+    <div class="container cta-row">
+      <div>
+        <h2>Ready to discuss PMS, AGO, Jet A1 or CNG supply?</h2>
+        <p>Share your requirements and we’ll respond with structured options, timelines and documentation.</p>
       </div>
-
-      <div class="hr"></div>
-
-      <blockquote class="small">
-        “We combine trading and haulage under one control framework so customers get product + delivery + documentation from a single accountable operator.”
-      </blockquote>
-    </div>
-  </div>
-</header>
-
-<section class="container fade-in-up">
-  <div class="grid3">
-    <div class="card">
-      <h3>Trading</h3>
-      <p>Structured supply for marketers and industrial users, with clear deal sheets, KYC, and controlled payment terms.</p>
-    </div>
-    <div class="card">
-      <h3>Haulage</h3>
-      <p>Managed trucking using approved subcontract fleets and journey management—focused on safe, on-time delivery.</p>
-    </div>
-    <div class="card">
-      <h3>Investor readiness</h3>
-      <p>Governance, compliance roadmap and reporting discipline designed for banks, strategic partners and investors.</p>
-    </div>
-  </div>
-</section>
-
-<!-- GLOBAL FOOTER -->
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <h4>Superior Link Nigeria Ltd</h4>
-      <p class="small">
-        Indigenous downstream trading and haulage company supplying PMS, AGO, Jet A1 and CNG with compliance and QHSE-led operations.
-      </p>
-      <p class="small">Abuja • Lagos/Ogun • South East</p>
-    </div>
-
-    <div>
-      <h4>Navigation</h4>
-      <p class="small"><a href="/">Home</a></p>
-      <p class="small"><a href="/products">Products</a></p>
-      <p class="small"><a href="/markets">Markets</a></p>
-      <p class="small"><a href="/compliance">Compliance</a></p>
-      <p class="small"><a href="/investors">Investors</a></p>
-      <p class="small"><a href="/payments">Payments</a></p>
-      <p class="small"><a href="/about">About</a></p>
-      <p class="small"><a href="/contact">Contact</a></p>
-    </div>
-
-    <div>
-      <h4>Contact</h4>
-      <p class="small">Email: info@superiorlinkng.com</p>
-      <p class="small">Sales: sales@superiorlinkng.com</p>
-      <p class="small">Phone / WhatsApp: +15628847513</p>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/people/Superior-Link-Nig-Ltd/61587178234784" target="_blank">Facebook</a>
-        <a href="https://x.com" target="_blank">X</a>
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      <div>
+        <a href="/contact#quote" class="btn primary">Request a Quote</a>
+        <a href="/contact" class="btn ghost">Contact Us</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="container footer-bottom">
-    <p class="small">© Superior Link Nigeria Limited. All rights reserved.</p>
-  </div>
-</footer>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Superior Link Nigeria Ltd</h3>
+        <p>PMS, AGO, Jet A1 & CNG supply with refinery‑linked sourcing and QHSE‑led logistics.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/investors">Investors</a></li>
+          <li><a href="/compliance">Compliance</a></li>
+          <li><a href="/payments">Payments</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: info@superiorlinkng.com</p>
+        <p>Website: https://superiorlinkng.com</p>
+        <p>Location: Lagos / Abuja, Nigeria</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Superior Link Nigeria Ltd. All rights reserved.</p>
+    </div>
+  </footer>
 
-<script>
-  const toggle = document.getElementById('darkToggle');
-  if (toggle) {
-    toggle.onclick = () => document.body.classList.toggle('dark-mode');
-  }
+  <script>
+    function toggleNav() {
+      const links = document.getElementById('links');
+      if (links) links.classList.toggle('open');
+    }
 
-document.querySelectorAll('.links a').forEach(a => { 
-  a.addEventListener('click', () => { 
-    const links = document.getElementById('links'); 
-    if (links) links.classList.remove('open'); }); });
-
-  // Simple scroll animation
-  const animated = document.querySelectorAll('.fade-in-up, .slide-in-right');
-  const onScroll = () => {
-    const trigger = window.innerHeight * 0.9;
-    animated.forEach(el => {
-      const rect = el.getBoundingClientRect();
-      if (rect.top < trigger) el.classList.add('in-view');
+    // Close mobile nav when clicking any link
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.links a').forEach(a => {
+        a.addEventListener('click', () => {
+          const links = document.getElementById('links');
+          if (links) links.classList.remove('open');
+        });
+      });
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
     });
-  };
-  window.addEventListener('scroll', onScroll);
-  window.addEventListener('load', onScroll);
-</script>
-
+  </script>
 </body>
 </html>
