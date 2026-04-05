@@ -1,22 +1,17 @@
-# Canonical clean URLs
-/products    /products.html  301
-/pms         /pms.html  301
-/ago         /ago.html  301
-/jet-a1      /jet-a1.html  301
-/cng         /cng.html  301
-/markets     /markets.html  301
-/compliance  /compliance.html  301
-/investors   /investors.html  301
-/payments    /payments.html  301
-/privacy     /privacy.html  301
-/terms       /terms.html  301
-/contact     /contact.html  301
-
-# Always serve real files (avoid SPA rewrites capturing them)
-/sitemap.xml  /sitemap.xml  200
 /robots.txt   /robots.txt   200
+/sitemap.xml  /sitemap.xml  200
 
-# Fallback: send any unknown route to home (optional)
-# /*  /index.html  404
-/thank-you /thank-you.html 301
-/thank-you/ /thank-you.html 301
+/about        /about.html        200
+/products     /products.html     200
+/pms          /pms.html          200
+/ago          /ago.html          200
+/jet-a1       /jet-a1.html       200
+/cng          /cng.html          200
+/markets      /markets.html      200
+/compliance   /compliance.html   200
+/investors    /investors.html    200
+/payments     /payments.html     200
+/contact      /contact.html      200
+/privacy      /privacy.html      200
+/terms        /terms.html        200
+/thank-you    /thank-you.html    200
