@@ -2,7 +2,7 @@
 
 Adds descriptive titles, unique descriptions, Organization/WebSite/WebPage/BreadcrumbList JSON-LD, visible breadcrumbs, product buying information, contextual links and social metadata using the existing logo. No invented ratings, prices, certifications, refinery affiliations or social profiles. Existing canonical URLs and routes are preserved. The sitemap contains 15 selected canonical pages; thank-you remains noindex.
 
-Company schema omits phone, address and hours pending confirmation: the supplied Google profile screenshot has a different phone number from the website. Existing website contacts are unchanged. No private screenshots or submission data are published.
+Owner confirmed +1 562 884 7513 as the direct line. It is added to site footers, the contact page and Organization contactPoint markup. The existing Nigerian phone/WhatsApp number remains available. Postal address and hours remain omitted from schema pending confirmation. Google Business Profile settings were not changed. No private screenshots or submission data are published.
 
 Search Console: submit only /sitemap.xml under Sitemaps; use URL Inspection for individual pages. Inspect actual missing-URL examples before adding redirects. Known removed documents should not redirect to unrelated pages. Google may choose its own canonical and search snippet. No ranking or rich-result guarantee.
 
